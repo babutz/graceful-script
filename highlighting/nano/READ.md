@@ -12,7 +12,3 @@ System Wide Installation
   * `cp *.nanorc /usr/local/share/nano/`
 
 3. Add the following to your `/etc/nanorc`:
-  ```
-## Dockerfile files
-include "/usr/local/share/nano/Dockerfile.nanorc"
-
