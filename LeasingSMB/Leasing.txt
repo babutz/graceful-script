@@ -1,0 +1,1 @@
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanserver\parameters /v DisableLeasing /t REG_DWORD /d 1 /f
