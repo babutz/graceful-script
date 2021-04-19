@@ -1,0 +1,2 @@
+dism.exe /online /Cleanup-image /Restorehealth
+dism /export-image /SourceImageFile:c:\install.esd /SourceIndex:4 /DestinationImageFile:c:\install.wim /Compress:max /CheckIntegrity

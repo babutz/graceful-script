@@ -1,0 +1,1 @@
+Get-ADComputer -Identity 'ComputerName' | select SID

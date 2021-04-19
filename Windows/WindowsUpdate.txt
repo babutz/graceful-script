@@ -1,0 +1,8 @@
+Найдите и выделите следующий раздел реестра:
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+
+Параметр: UseWUServer
+Значение: установите значение 1, чтобы указать службе Автоматического обновления использовать сервер, на котором запущены службы SUS, вместо веб-узла Windows Update.
+Тип: Reg_DWORD
+
+Поставить: 0

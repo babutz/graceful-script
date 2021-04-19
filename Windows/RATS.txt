@@ -1,0 +1,3 @@
+Get-WindowsCapability -Name RSAT* -Online | Select-Object -Property State,Name,DisplayName | Format-Table -AutoSize
+
+Add-WindowsCapability -online -Name "Rsat.ActiveDirectiry.DS-LDS.Tools~~~~0.0.1.0"

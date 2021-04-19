@@ -1,0 +1,6 @@
+ndiscap
+cmd
+sc query ndiscap
+
+sc start ndiscap
+sc config ndiscap start=auto
