@@ -1,0 +1,1 @@
+Get-ADUser -searchbase 'OU=XXX,OU=XXX,DC=XXX,DC=tax,DC=XXX, DC=XXX' -filter {(Description -like "Привилегированная УЗ") -and (name -like "n0000*") -or (enabled -eq "True")} -properties PasswordLastSet |ft Name, PasswordLastSet
